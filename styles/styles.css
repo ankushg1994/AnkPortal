@@ -1,0 +1,103 @@
+*{
+		margin: 0px auto;
+		text-align: center;
+	}
+
+	nav>span{
+		float: left;
+		background-color: white;
+		font-size: 50px;
+		opacity: 0.3;
+		font-family: 'Sedgwick Ave Display', cursive;
+		color: blue;
+		margin-bottom: -4px;
+		padding-right:20px; 
+
+	}
+
+	nav>ul{	
+    	background-color: #f1f1f1;
+    	opacity: 0.6;
+    	margin: 0px;
+    	padding: 0px;
+    	margin-left: 300px;
+    	border: 1px solid #555;
+    	    /*float: right;*/
+
+
+	}
+	nav>ul li{
+		display: inline-block;
+		font-size: 35px;
+		color: white;
+	}
+
+	li a {	    
+	    text-decoration: none;
+	}
+
+	li a:link {	
+		padding: 8px 16px;
+		
+    
+	    color:rgb(81, 39, 42);  
+	}
+
+	li:hover {
+    background-color: #555;
+    
+    }
+
+	li a:hover {
+    color: rgb(191, 250, 255);
+	
+	}	
+
+	header{
+		background-color: rgba(255,255,255,.5);
+		opacity: 0.8;
+		height: 100px;
+		padding-top: 20px;
+	}
+	header>h1{
+		font-family: 'Joti One', cursive;
+		background: -webkit-linear-gradient(#182, #339);
+ 		-webkit-background-clip: text;
+  		-webkit-text-fill-color: transparent;
+
+	}
+
+	footer{
+
+		position: relative;
+		background-color: rgba(255,255,255,.5);
+		padding: 1em;
+	    clear: left;
+	    text-align: center;
+	}
+
+	.active{
+		background-color: rgba(147, 74, 0,0.8);
+		padding: 8px 16px;
+		color: rgb(249, 250, 255);
+	}
+
+section{
+		margin: 20px 50px;
+		min-height: 700px;
+
+	
+	-webkit-box-shadow: inset 2px 3px 187px 137px rgba(194,155,126,1);
+-moz-box-shadow: inset 2px 3px 187px 137px rgba(194,155,126,1);
+box-shadow: inset 2px 3px 187px 137px rgba(194,155,126,1);
+	}
+
+.social{
+	
+	font-size: 40px;
+	margin:5px 10px;
+}
+.social a:hover{
+	color: blue;
+	font-size: 60px;
+}
